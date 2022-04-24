@@ -4,15 +4,13 @@
 
 **Functional Requirements**
 
-1. Should be able to register a new car;
-2. Should be able to list all categories.
+1. Should be able to register a new car.
 
 **Business Rules**
 
 1. Should NOT be able to register a car with an existing license plate;
-2. Should NOT be able to change a license plate of an existing car;
-3. Should register a car with available by default;
-4. Only admin users can register a car.
+2. Should register a car with available by default;
+3. Only admin users can register a car.
 
 ## Car listing
 
