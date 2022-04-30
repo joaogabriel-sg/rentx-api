@@ -29,9 +29,7 @@
 
 **Functional Requirements**
 
-1. Should be able to register a specification to a car;
-2. Should be able to list all specifications;
-3. Should be able to list all cars.
+1. Should be able to register a specification to a car.
 
 **Business Rules**
 
