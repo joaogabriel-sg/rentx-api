@@ -41,8 +41,7 @@
 
 **Functional Requirements**
 
-1. Should be able to register a car image;
-2. Should be able to list all cars;
+1. Should be able to register a car image.
 
 **Non-functional Requirements**
 
