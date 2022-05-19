@@ -58,10 +58,9 @@
 
 1. Should be able to register a rental;
 
-**Non-functional Requirements**
-
 **Business Rules**
 
 1. The rental must have a minimum duration of 24 hours (1 day);
 2. Should NOT be able to register a new rental if there is already a rental open for the same user;
-3. Should NOT be able to register a new rental if there is already a rental open for the same car.
+3. Should NOT be able to register a new rental if there is already a rental open for the same car;
+4. The user must to be logged into the application.
