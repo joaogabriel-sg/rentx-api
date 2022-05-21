@@ -63,4 +63,21 @@
 1. The rental must have a minimum duration of 24 hours (1 day);
 2. Should NOT be able to register a new rental if there is already a rental open for the same user;
 3. Should NOT be able to register a new rental if there is already a rental open for the same car;
-4. The user must to be logged into the application.
+4. The user must to be logged into the application;
+5. When a rental is made, the car's status must be changed to unavailable.
+
+## Car return
+
+**Functional Requirements**
+
+1. Should be able to return a car;
+
+**Business Rules**
+
+1. If the car was returned in less than 24 hours, the full day will be charged;
+2. After return, the car must be released for another rental;
+3. After the return, the user must be released for another rental;
+4. After the return, the total rent must be calculated;
+5. If the return date is later than the estimated delivery date, a fine will be charged proportional to the days of delay;
+6. If there is a fine, it must be added to the total rent;
+7. The user must to be logged into the application.
