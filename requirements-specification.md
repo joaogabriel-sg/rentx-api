@@ -81,3 +81,13 @@
 5. If the return date is later than the estimated delivery date, a fine will be charged proportional to the days of delay;
 6. If there is a fine, it must be added to the total rent;
 7. The user must to be logged into the application.
+
+## Listing rents for the user
+
+**Functional Requirements**
+
+1. Should be able to find all rentals for the user.
+
+**Business Rules**
+
+1. The user must to be logged into the application.
